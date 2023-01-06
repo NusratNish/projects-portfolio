@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.hearder-section{
+  background-color: #FFF8F3 ;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+  margin-bottom: 100px;
+
+}
+.nav-section {
+   padding: 50px 200px;
+   justify-content: space-between;
+   display: flex;
+}
+.list-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+h1{
+    font-size: 40px;
+}
+.botton-iteam{
+   width: 100px;
+   height: 45px;
+   background-color: #FD6E0A;
+   border: 0;
+   border-radius: 5PX;
+   color: #FFFF;
+   font-weight: bold;
+}
+.text-primary {
+    color: #FD6E0A;
+}
+.banner-section{
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.discripton-section{
+    justify-items: center;
+    margin-top: 200px;
+    margin-left: 45px;
+}
+.middel-head{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #1E1E1E;
+}
+.my-discription{
+    color: gray;
+    margin-bottom: 25px;
+    font-weight: 200;
+    line-height: 25px;
+}
+.sub-head{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #1E1E1E;
+}
+.banner-button{
+    color: #FFF8F3;
+    height: 45px;
+    width: 120px;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.contact-button{
+    color:#FD6E0A;
+    height: 45px;
+    width: 120px;
+    border:2px solid #FD6E0A;
+    background-color: #FFF8F3;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+/* start about */
+.about-me {
+    text-align: center;
+    
+}
+.about{
+    margin-left: 120px;
+    width: 1040px;
+    height: 300px;
+    background-color: #FFF8F3;
+    margin-bottom: 50px;
+}
+.my-details {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.about-me{
+   padding-top:40px ;
+}
+.discription-me{
+    padding-top: 20px;
+    width:80%;
+    line-height: 25px;
+    margin-left: 10%;
+    justify-content: center;
+    color: gray;
+    font-weight: 200;
+}
+.first {
+    color: gray;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.second{
+    color:#2e2c2c;
+    font-weight: 200px;
+}
+
+         /* what i do */
+.exprience{
+    justify-content: center;
+    text-align: center;
+    color: #1E1E1E;
+    padding: 20px ;
+    margin-left: 120px ;
+} 
+.exprience-about{
+    padding-top: 25px;
+    width: 70%;
+    padding-left: 15%;
+    padding-bottom: 30px;
+    line-height: 25px;
+    color: gray;
+} 
+.exprience-discription{
+    display: flex;
+    margin-left: 60px;
+    gap: 20px;
+    margin-bottom: 100px;
+} 
+
+.first-exprience{
+      width: 70%;
+      height: 300px;
+      color:#1E1E1E;
+      
+box-shadow: 0px 0px 5px rgb(204, 197, 197);
+
+      border-radius: 6px;
+      padding: 25px 20px;
+}
+.first-exprience h2 {
+    margin-top: 30px;
+
+}
+.first-exprience p{
+    margin-top: 25px;
+    line-height: 25px;
+    color: gray;
+}
+                                     /* resume...................... */
+ .resume{
+    display: flex;
+    
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.summary{
+    text-align: center;
+    color: #1E1E1E;
+    
+}
+.my-education{
+    margin-top: 50px;
+    color: rgb(83, 82, 82);
+    text-align: left;
+    margin-left: 100px;
+}
+.my-education h2{
+    margin-bottom: 40px;
+}
+.my-edu h3{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.my-edu p{
+    color: gray;
+    margin-top: 15px;
+    font-size: smaller;
+    font-weight: 700;
+    width:80% ;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.my-edu h4{
+    color: rgb(128, 128, 128);
+}
+.my-skill{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(83, 82, 82);
+    text-align: left;
+}
+
+ /* .............................. footer////////////////////////////////// */
+.footer{
+    margin-top: 100px;
+    height: 550px;
+    background-color: #FFF8F3;
+}
+.footer-section{
+    display: flex;
+}
+.lets-connect {
+  margin-top: 60px;
+  margin-left: 150px;
+}
+.lets-connect p{
+    margin-top: 20px;
+    font-size: smaller;
+    font-weight: 700;
+    color: gray;
+    width: 450px;
+    margin-bottom: 30px;
+} 
+.lets-connect ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.Message-me{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.Message-me ul{
+    list-style: none;
+    gap: 25px;
+    margin-top: 50px;
+}
+#email {
+    margin-top: 30px;
+    height: 50px;
+    width: 400px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow:0px 0px 10px rgb(204, 197, 197);
+   text-align: left;
+}
+#text {
+    margin-top: 30px;
+    height: 120px;
+    width: 400px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow:0px 0px 10px rgb(204, 197, 197);
+    text-align: left;
+    margin-bottom: 30px;
+}
+.Message-me button{
+    width: 100px;
+   height: 45px;
+   background-color: #FD6E0A;
+   border: 0;
+   border-radius: 5PX;
+   color: #FFFF;
+   font-weight: bold;
+}
+.Message-me h2{
+    margin-left: 40px;
+}
